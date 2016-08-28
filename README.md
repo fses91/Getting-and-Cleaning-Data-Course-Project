@@ -15,7 +15,7 @@ The `run_analysis.R` script performs the following steps on the data:
 ## Instruction
 To run create the tidy data following steps are requiered:
 
-1. Download the source file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+1. Download the [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) folder from.
 2. Unzip it.
 3. Set the unzipped folder as your working directory.
 4. Run the script.

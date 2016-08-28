@@ -4,7 +4,7 @@
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Performed steps on the data
-Following steps were performed on the data source.
+The `run_analysis.R` script performs the following steps on the data:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.

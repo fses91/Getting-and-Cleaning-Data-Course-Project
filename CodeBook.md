@@ -1,10 +1,9 @@
 # CodeBook
 
 ##Data
-Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
-##Description
-The description for this data is taken from the README.txt from the data source.
+The information about this data is taken from the README.txt from the data source.
 
 Feature Selection 
 =================

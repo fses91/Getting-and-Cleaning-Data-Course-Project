@@ -3,7 +3,7 @@
 ## Data
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-## Performed steps on the data
+## Script
 The `run_analysis.R` script performs the following steps on the data:
 
 1. Merges the training and the test sets to create one data set.

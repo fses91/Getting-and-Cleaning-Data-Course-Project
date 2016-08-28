@@ -1,6 +1,3 @@
-# Go to the directory where the data is located.
-setwd("UCI\ HAR\ Dataset/")
-
 # Read data
 testSet <- read.table("test/X_test.txt")
 testLabels <- read.table("test/y_test.txt")

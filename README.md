@@ -3,6 +3,9 @@
 ## Data
 Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+## Requierd libraries
+* dplyr
+
 ## Script
 The `run_analysis.R` script performs the following steps on the data:
 

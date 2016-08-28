@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
 
 ## Data
-Source: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
+Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Script
 The `run_analysis.R` script performs the following steps on the data:

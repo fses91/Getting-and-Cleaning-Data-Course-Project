@@ -1,7 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
 
 ## Data
-Source: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+Source: <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
 ## Script
 The `run_analysis.R` script performs the following steps on the data:
@@ -20,3 +20,6 @@ To run create the tidy data following steps are requiered:
 3. Set the unzipped folder as your working directory.
 4. Run the script.
 5. Enjoy the tidy data.
+
+## Additional
+http://www.insideactivitytracking.com/data-science-activity-tracking-and-the-battle-for-the-worlds-top-sports-brand/

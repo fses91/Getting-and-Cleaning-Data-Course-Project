@@ -1,3 +1,4 @@
+# Go to the directory where the data is located.
 setwd("UCI\ HAR\ Dataset/")
 
 # Read data
@@ -33,15 +34,17 @@ colnames(neededColumns) <- gsub("-[Mm]ean", "Mean", colnames(neededColumns))
 colnames(neededColumns) <- gsub("-[Ss]td", "Std", colnames(neededColumns))
 colnames(neededColumns) <- gsub("[()-]", "", colnames(neededColumns))
 
+# Select mean by groups activity and subject
 neededColumns <- group_by(neededColumns, activity, subject)
 activitySubjectMeans <- aggregate(. ~ activity + subject, neededColumns, mean)
 
+# Set activity lables
 indexCounter <- 1
-
 for (activity in activitySubjectMeans$activity) {
         activityLabel <- as.character(activityLabels[activityLabels$V1 == activity,]$V2)
         activitySubjectMeans$activity[indexCounter] <- activityLabel
         indexCounter = indexCounter + 1
 }
 
+# Write file
 write.table(activitySubjectMeans, "tidy.txt")

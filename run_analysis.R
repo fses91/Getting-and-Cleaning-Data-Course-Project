@@ -1,3 +1,6 @@
+# Load requiered libraries
+library(dplyr)
+
 # Read data
 testSet <- read.table("test/X_test.txt")
 testLabels <- read.table("test/y_test.txt")
@@ -44,4 +47,4 @@ for (activity in activitySubjectMeans$activity) {
 }
 
 # Write file
-write.table(activitySubjectMeans, "tidy.txt")
+write.table(activitySubjectMeans, "tidy.txt", row.names = FALSE)
